@@ -18,9 +18,9 @@ $:.unshift(File.dirname(__FILE__))
 require 'logger'
 
 class Princely
-  VERSION = "1.0.0" unless const_defined?("VERSION")
+  VERSION = "1.2.5" unless const_defined?("VERSION")
   
-  attr_accessor :exe_path, :style_sheets, :log_file, :logger
+  attr_accessor :exe_path, :style_sheets, :log_file, :logger, :additional_options
 
   # Initialize method
   #
@@ -47,7 +47,7 @@ class Princely
   #
   def exe_path
     # Add any standard cmd line arguments we need to pass
-    @exe_path << " --input=html --server --log=#{@log_file} "
+    @exe_path << " --input=html --server --log=#{@log_file} #{@additional_options} "
     @exe_path << @style_sheets
     return @exe_path
   end
