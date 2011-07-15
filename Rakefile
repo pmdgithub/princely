@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "princely"
+    gem.name = "ccollins-princely"
     gem.summary = %Q{A simple Rails wrapper for the PrinceXML PDF generation library.}
     gem.description = %Q{A wrapper for the PrinceXML PDF generation library based on article by Seth from Subimage Interactive at http://sublog.subimage.com/2007/05/29/html-css-to-pdf-using-ruby-on-rails}
     gem.email = "michael@intridea.com"
