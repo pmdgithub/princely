@@ -1,5 +1,6 @@
 Princely
 ========
+* updated to avoid deprecation errors in rails 3
 
 Princely is a simple wrapper for the Prince XML PDF generation library 
 (http://www.princexml.com). It is almost entirely based on the SubImage 
