@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{princely}
-  s.version = "1.2.5"
+  s.version = "1.2.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Bleigh", "Seth from Subimage Interactive"]
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
      "lib/princely/rails.rb",
      "princely.gemspec"
   ]
-  s.homepage = %q{http://github.com/drnic/princely}
+  s.homepage = %q{http://github.com/ccollins/princely}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
